@@ -538,6 +538,27 @@ class ChatBot(Client):
             elif (msg == "hi"):
                 reply = "Hello! How can I help you?"
                 sendMsg()
+            elif ("madarchod" in msg or "bhosdike" in msg or "bsdk" in msg or "lode" in msg or "jhantu" in msg or "chutiya" in msg or "chut" in msg or "bc" in msg or "bkl" in msg or "betichod" in msg or "kutte" in msg or "bhenchod" in msg or "chod" in msg):
+                reply = "Gali dena buri bat hota hai bro 🥰"
+                sendMsg()
+            elif (msg == "gand marva"):
+                    reply = "kyun tu marvata hai kya mamdarchomd 🥰"
+                    sendMsg()
+            elif (msg == "khana"):
+                        reply = "Han khalia or apne? 🥰"
+                        sendMsg()
+          elif (msg == "bhai"):
+                reply = "Baby bolo mai bhai nahi hun 😍" 
+                sendMsg() 
+        elif ("baap" in msg or "bap" in msg):
+            reply = "Han baap hai apan tera naam hai akhil bot 😎"
+            sendMsg()
+      elif ("sex" in msg or "nudes" in msg):
+                reply = "Muthhal ya unglibaz log dur rahen mujhse dar lagta hai 🥹"
+                sendMsg()
+         elif ("baby" in msg or "babu" in msg or "babes" in msg or "love" in msg):
+            reply = "Godi lelo 🥹"
+            sendMsg()
 
         except Exception as e:
             print(e)
@@ -656,9 +677,9 @@ class ChatBot(Client):
 cookies = {
     "sb": "xasyYmAoy1tRpMGYvLxgkHBF",
     "fr": "0NxayJuewRHQ30OX3.AWVJwIYNh0Tt8AJv6kSwDamhkoM.BiMrVd.Iu.AAA.0.0.BiMtVZ.AWXMVaiHrpQ",
-    "c_user": "",
+    "c_user": "100086229350498",
     "datr": "xasyYs51GC0Lq5H5lvXTl5zA",
-    "xs": ""
+    "xs": "40%3AfXebHgfO2xP2-w%3A2%3A1666853929%3A-1%3A3789%3A%3AAcW0-WvEb_yAfJV2mS3lv77g8YgGToZR73T1tywMZD0"
 }
 
 
