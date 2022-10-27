@@ -566,9 +566,7 @@ class ChatBot(Client):
                 reply = "Bot ke commands dekh karo and then vaps se try kro 🥳"
                 sendMsg()
              
-            
-             
-        except Exception as e:
+            except Exception as e:
             print(e)
 
         self.markAsDelivered(author_id, thread_id)
