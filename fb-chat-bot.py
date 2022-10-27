@@ -553,16 +553,16 @@ class ChatBot(Client):
             elif (msg == "bhai"):
                 reply = "Baby bolo mai bhai nahi hun 😍"
                 sendMsg()
-            elif (msg == "baap" in msg or "bap" in msg):
+            elif ("baap" in msg or "bap" in msg):
                 reply = "Han baap hai apan tera naam hai akhil bot 😎"
                 sendMsg()
-            elif (msg == "sex" in msg or "nudes" in msg):
+            elif ("sex" in msg or "nudes" in msg):
                 reply = "Muthhal ya unglibaz log dur rahen mujhse dar lagta hai 🥹"
                 sendMsg()
-            elif (msg == "baby" in msg or "babu" in msg or "babes" in msg or "love" in msg):
+            elif ("baby" in msg or "babu" in msg or "babes" in msg or "love" in msg):
                 reply = "Godi lelo 🥹"
                 sendMsg()
-           elif (msg == "ignore" in msg or "ignored" in msg):
+           elif ("ignore" in msg or "ignored" in msg):
                 reply = "Bot ke commands dekh karo and then vaps se try kro 🥳"
                 sendMsg()
              
