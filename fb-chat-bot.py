@@ -562,9 +562,6 @@ class ChatBot(Client):
             elif ("baby" in msg or "babu" in msg or "babes" in msg or "love" in msg):
                 reply = "Godi lelo 🥹"
                 sendMsg()
-           elif ("ignore" in msg or "ignored" in msg):
-                reply = "Bot ke commands dekh karo and then vaps se try kro 🥳"
-                sendMsg()
              
             except Exception as e:
             print(e)
