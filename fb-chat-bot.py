@@ -541,13 +541,26 @@ class ChatBot(Client):
             elif (msg == "."):
                 reply = "🤣"
                 sendMsg()
-            elif ("madarchod" in msg or "bhosdike" in msg or "bsdk" in msg or "lode" in msg or "gand" in msg):
+            elif ("madarchod" in msg or "bhosdike" in msg or "bsdk" in msg or "lode" in msg or "marva" in msg):
                 reply = "Gali dena buri bat hota hai bro 🥰"
                 sendMsg()
-            elif (msg == "mara"):
+            elif (msg == "gand marva"):
                 reply = "kyun tu marvata hai kya mamdarchomd 🥰"
                 sendMsg()
-
+            elif (msg == "khana"):
+                reply = "Han khalia or apne? 🥰"
+                sendMsg()
+            elif (msg == "bhai"):
+                reply = "Baby bolo mai bhai nahi hun 😍"
+                sendMsg()
+            elif (msg == "baap" in msg or "bap" in msg):
+                reply = "Han baap hai apan tera naam hai akhil bot 😎"
+                sendMsg()
+            elif (msg == "sex" in msg or "nudes" in msg):
+                reply = "Muthhal ya unglibaz log dur rahen mujhse dar lagta hai 🥹"
+                sendMsg()
+            
+             
         except Exception as e:
             print(e)
 
