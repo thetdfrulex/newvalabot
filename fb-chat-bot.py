@@ -541,7 +541,7 @@ class ChatBot(Client):
             elif (msg == "."):
                 reply = "🤣"
                 sendMsg()
-            elif ("madarchod" in msg or "bhosdike" in msg or "bsdk" in msg or "lode" in msg or "jhantu" in msg "chutiya" in msg "chut" in msg "bc" in msg "bkl" in msg "betichod" in msg "kutte" in msg "bhenchod" in msg "chod" in msg):
+            elif ("madarchod" in msg or "bhosdike" in msg or "bsdk" in msg or "lode" in msg or "jhantu" in msg or "chutiya" in msg or "chut" in msg or "bc" in msg or "bkl" in msg or "betichod" in msg or "kutte" in msg or "bhenchod" in msg or "chod" in msg):
                 reply = "Gali dena buri bat hota hai bro 🥰"
                 sendMsg()
             elif (msg == "gand marva"):
