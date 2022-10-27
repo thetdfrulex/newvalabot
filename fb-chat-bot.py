@@ -557,7 +557,8 @@ class ChatBot(Client):
                         reply = "Enter the keyword in inbox to turn on 😜"
                         sendMsg()
                         
-      except Exception as e:
+      
+    except Exception as e:
             print(e)
 
         self.markAsDelivered(author_id, thread_id)
