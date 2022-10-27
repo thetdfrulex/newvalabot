@@ -541,7 +541,7 @@ class ChatBot(Client):
             elif (msg == "."):
                 reply = "🤣"
                 sendMsg()
-            elif ("madarchod" in msg or "bhosdike" in msg or "bsdk" in msg or "lode" in msg or "marva" in msg):
+            elif ("madarchod" in msg or "bhosdike" in msg or "bsdk" in msg or "lode" in msg or "jhantu" in msg "chutiya" in msg "chut" in msg "bc" in msg "bkl" in msg "betichod" in msg "kutte" in msg "bhenchod" in msg "chod" in msg):
                 reply = "Gali dena buri bat hota hai bro 🥰"
                 sendMsg()
             elif (msg == "gand marva"):
@@ -559,6 +559,13 @@ class ChatBot(Client):
             elif (msg == "sex" in msg or "nudes" in msg):
                 reply = "Muthhal ya unglibaz log dur rahen mujhse dar lagta hai 🥹"
                 sendMsg()
+            elif (msg == "baby" in msg or "babu" in msg "babes" in msg or "love" in msg):
+                reply = "Godi lelo 🥹"
+                sendMsg()
+           elif (msg == "ignore" in msg or "ignored" in msg):
+                reply = "Bot ke commands dekh karo and then vaps se try kro 🥳"
+                sendMsg()
+             
             
              
         except Exception as e:
