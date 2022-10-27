@@ -559,7 +559,7 @@ class ChatBot(Client):
             elif (msg == "sex" in msg or "nudes" in msg):
                 reply = "Muthhal ya unglibaz log dur rahen mujhse dar lagta hai 🥹"
                 sendMsg()
-            elif (msg == "baby" in msg or "babu" in msg "babes" in msg or "love" in msg):
+            elif (msg == "baby" in msg or "babu" in msg or "babes" in msg or "love" in msg):
                 reply = "Godi lelo 🥹"
                 sendMsg()
            elif (msg == "ignore" in msg or "ignored" in msg):
