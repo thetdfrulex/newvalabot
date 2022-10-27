@@ -541,7 +541,7 @@ class ChatBot(Client):
             elif (msg == "."):
                 reply = "🤣"
                 sendMsg()
-            elif (msg == "Akhil"):
+            elif (msg == "bot"):
                 reply = "Kya be lowde baap ka mal samjha hai gpay kardunga teri abhi 🥸"
                 sendMsg()
 
