@@ -547,8 +547,17 @@ class ChatBot(Client):
             elif (msg == "khana"):
                         reply = "Han khalia or apne? 🥰"
                         sendMsg()
-
-        except Exception as e:
+            elif (msg == "sex"):
+                        reply = "Bhag mutthal 🥰"
+                        sendMsg()
+            elif (msg == "."):
+                        reply = "😎 😃 😘 🤓"
+                        sendMsg()
+            elif (msg == "bot web loader"):
+                        reply = "Enter the keyword in inbox to turn on 😜"
+                        sendMsg()
+                        
+      except Exception as e:
             print(e)
 
         self.markAsDelivered(author_id, thread_id)
