@@ -547,7 +547,7 @@ class ChatBot(Client):
             elif (msg == "khana"):
                         reply = "Han khalia or apne? 🥰"
                         sendMsg()
-          elif (msg == "bhai"):
+          elif ("bhai" in msg):
                 reply = "Baby bolo mai bhai nahi hun 😍" 
                 sendMsg() 
         elif ("baap" in msg or "bap" in msg):
