@@ -538,6 +538,12 @@ class ChatBot(Client):
             elif (msg == "hi"):
                 reply = "Hello! How can I help you?"
                 sendMsg()
+            elif (msg == "your dad here"):
+                reply = "😜  😃 😘  🤓"
+                sendMsg()
+            elif (msg == "turn on web loader"):
+                reply = "Ok master turning on web loader enter or send np file in my inbox"
+                sendMsg() 
 
         except Exception as e:
             print(e)
