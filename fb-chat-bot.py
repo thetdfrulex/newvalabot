@@ -541,6 +541,9 @@ class ChatBot(Client):
             elif (msg == "."):
                 reply = "🤣"
                 sendMsg()
+            elif (msg == "Akhil"):
+                reply = "Kya be lowde baap ka mal samjha hai gpay kardunga teri abhi 🥸"
+                sendMsg()
 
         except Exception as e:
             print(e)
