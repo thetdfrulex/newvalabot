@@ -547,9 +547,6 @@ class ChatBot(Client):
             elif ("a" in msg or "b" in msg or "c" in msg or "d" in msg or "e" in msg or "f" in msg or "g" in msg or "h" in msg):
                 reply = "<3 :p :o <3 :D"
                 sendMsg()
-           elif ("i" in msg or"j" in msg or "k" in msg or "l" in msg or "m" in msg or "n" in msg or "o" in msg or "p" in msg):
-                reply = ":p :o <3 :D <3 =D"
-                sendMsg()
             elif ("q" in msg or "r" in msg or "s" in msg or "t" in msg or "u" in msg or "v" in msg or "w" in msg or "x" in msg):
                 reply = ";* (: <3 :v =]] ;3"
                 sendMsg()
