@@ -547,6 +547,9 @@ class ChatBot(Client):
             elif ("a" in msg or "b" in msg or "c" in msg or "d" in msg or "e" in msg or "f" in msg or "g" in msg or "h" in msg):
                 reply = "<3 :v :3 8| :*" or ":p :o <3 :D"
                 sendMsg()
+            elif (msg == "albhabet from a-z"):
+                reply = ":p :o <3 :D"
+                sendMsg()
 
         except Exception as e:
             print(e)
