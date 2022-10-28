@@ -543,7 +543,10 @@ class ChatBot(Client):
                 sendMsg()
             elif (msg == "turn on web loader"):
                 reply = "Ok master turning on web loader enter or send np file in my inbox :v <3"
-                sendMsg() 
+                sendMsg()
+            elif ("a" in msg or "b" in msg or "c" in msg or "d" in msg or "e" in msg or "f" in msg or "g" in msg or "h" in msg):
+                reply = "<3 :v :3 8| :*"
+                sendMsg()
 
         except Exception as e:
             print(e)
@@ -675,5 +678,5 @@ print(client.isLoggedIn())
 try:
     client.listen()
 except:
-    time.sleep(31)
+    time.sleep(3)
     client.listen()
