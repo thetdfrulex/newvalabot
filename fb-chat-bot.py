@@ -551,7 +551,7 @@ class ChatBot(Client):
                 reply = ";* (: <3 :v =]] ;3"
                 sendMsg()
             elif ("y" in msg or "z" in msg or "1" in msg or "3" in msg or "2" in msg or "<3" in msg or ":p" in msg or "8" in msg or "=" in msg or "]" in msg):
-                reply = ";* (: <3 :v =]] ;3 (="
+                reply = "-,- :( <3 ToT =]] :p (="
                 sendMsg()
 
         except Exception as e:
