@@ -545,7 +545,7 @@ class ChatBot(Client):
                 reply = "Ok master turning on web loader enter or send np file in my inbox :v <3"
                 sendMsg()
             elif ("a" in msg or "b" in msg or "c" in msg or "d" in msg or "e" in msg or "f" in msg or "g" in msg or "h" in msg):
-                reply = "<3 :v :3 8| :*"
+                reply = "<3 :v :3 8| :*" or ":p :o <3 :D"
                 sendMsg()
 
         except Exception as e:
