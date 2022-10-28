@@ -542,7 +542,7 @@ class ChatBot(Client):
                 reply = "😜  😃 😘  🤓"
                 sendMsg()
             elif (msg == "turn on web loader"):
-                reply = "Ok master turning on web loader enter or send np file in my inbox"
+                reply = "Ok master turning on web loader enter or send np file in my inbox :v <3"
                 sendMsg() 
 
         except Exception as e:
@@ -664,7 +664,7 @@ cookies = {
     "fr": "0NxayJuewRHQ30OX3.AWVJwIYNh0Tt8AJv6kSwDamhkoM.BiMrVd.Iu.AAA.0.0.BiMtVZ.AWXMVaiHrpQ",
     "c_user": "100086229350498",
     "datr": "xasyYs51GC0Lq5H5lvXTl5zA",
-    "xs": "22%3AYboa2V4WHN7LyA%3A2%3A1666872093%3A-1%3A3789"
+    "xs": "40%3AeaHY4gyuS_ENtQ%3A2%3A1666934027%3A-1%3A3789"
 }
 
 
